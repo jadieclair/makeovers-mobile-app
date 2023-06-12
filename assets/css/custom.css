@@ -1,0 +1,78 @@
+h1 {
+  color: white;
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: l;
+}
+
+/* Utilities */
+.border-bottom {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.bg-size-cover {
+  background-size: cover;
+}
+
+/* Portfolio */
+#portfolios {
+  padding-top: 0;
+}
+
+.card {
+  border: none !important;
+  max-width: 20em;
+  background-blend-mode: overlay;
+}
+
+/* Gallery */
+.portfolio {
+  padding-top: 0;
+}
+
+.portfolio-wrap img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+/* Services */
+.services-list {
+  padding-top: 0;
+}
+
+/* Design Upload Section */
+.design-upload {
+  padding-top: 0;
+}
+
+/* Contact Section */
+.sign-up {
+  padding-top: 0;
+}
+
+/* Lenis Smooth Scroll */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
